@@ -14,4 +14,4 @@ Implemente um jogador capaz de jogar o jogo de Damas:
   - [Anders Baumann](http://andersbaumann.dk/checkers/checkersDoc.html) 
   - [Chinook](http://webdocs.cs.ualberta.ca/~chinook/databases/)
 
-*Valorização, Interface: poderá usar JPL (Java->SWI/YAP) ou YAP4Py (YAP para Python) para construir uma interface.
+* Valorização, Interface: poderá usar JPL (Java->SWI/YAP) ou YAP4Py (YAP para Python) para construir uma interface.
