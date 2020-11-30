@@ -1,22 +1,23 @@
-% Implementação.
+:- use_module(library(lists)).
+:- [board].
+
+% :- [alpha_beta].
+% :- [player].
 
 main :-
+    abolish(currentBoard/2),
 	board_initialize_game(Board),
-	write('Bem-Vindo ao Jogo de Damas!'), n,
-	write('Por favor introduza a jogada.)\n'),
-	play.
+	assert(currentBoard(Player, Board)),
+	write('Bem-Vindo ao Jogo de Damas!'), put(10),
+	write('Por favor introduza a jogada.)\n'), put(10),
+    play.
 
-empty_board(
-	    game_board(
-		       l(0, 1, 0, 1, 0, 1, 0, 1),
-		       l(1, 0, 1, 0, 1, 0, 1, 0),
-		       l(0, 1, 0, 1, 0, 1, 0, 1),
-		       l(1, 0, 1, 0, 1, 0, 1, 0),
-		       l(0, 1, 0, 1, 0, 1, 0, 1),
-		       l(1, 0, 1, 0, 1, 0, 1, 0),
-		       l(0, 1, 0, 1, 0, 1, 0, 1),
-		       l(1, 0, 1, 0, 1, 0, 1, 0)
-		      )).
+play:-
+	currentBoard(Player, Board),
+    board_print(Board),
+    play(Player, Board).
 
-% Cria a tabuleiro inicial.
-board_initialize_game(game_board(A,B,C,D,E,F,G,H)):-
+% aqui vai fazer a escolha da peça para o jogador. Falta acabar no outro ficheiro
+play(Player, Board) :- 
+	random(0,2,Cor),
+    Player = Cor.
