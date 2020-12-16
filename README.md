@@ -23,5 +23,5 @@ Implemente um jogador capaz de jogar o jogo de Damas:
 3. Após isso correr `?- main.` para começar a jogar.
 
 ##### Trabalho realizado por:
-###### [Cistiana Morais](up201505454)
-###### [João Pedro Ferreira](201404233)
+###### [Cistiana Morais](up201505454@fc.up.pt)
+###### [João Pedro Ferreira](up201404233@fc.up.pt)
