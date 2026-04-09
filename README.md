@@ -1,27 +1,27 @@
-# **Damas**
-## *Trabalho-de-Prolog-CC3012 - 2020/2021*
+# **Checkers**
+## *Work of Prolog - CC3012 - 2020/2021*
 
 ![](https://k.sinaimg.cn/n/sports/transform/20160221/XJpZ-fxprucs6305001.jpg/w570084.jpg)
 
-Implemente um jogador capaz de jogar o jogo de Damas:
+Implement a player capable of playing the game of Checkers:
 
-* Implemente minimax com alfa-beta pruning para procurar o espaço de procura, Veja o cap 24 do livro "Prolog Programming for Artificial Intelligence"
+* Implement minimax with alpha-beta pruning to search the search space. See chapter 24 of the book "Prolog Programming for Artificial Intelligence"
 
-* A função de avaliação poderá ser desenhada à mõo, mas valerá a pena olhar para a literatura sobre o assunto.
+* The evaluation function can be hand-designed, but it would be worth looking at the literature on the subject.
 
   - [Tim Wheeler](http://tim.hibal.org/blog/playing-checkers-with-minimax/)
   - [Anders Baumann](http://andersbaumann.dk/checkers/checkersDoc.html) 
   - [Chinook](http://webdocs.cs.ualberta.ca/~chinook/databases/)
 
-* Valorização, Interface: poderá usar JPL (Java->SWI/YAP) ou YAP4Py (YAP para Python) para construir uma interface.
+* Enhancement, Interface: you can use JPL (Java->SWI/YAP) or YAP4Py (YAP for Python) to build an interface.
 
-*É necessário ter o yap instalado! [ver aqui](https://github.com/vscosta/yap-6.3)*
+*It is necessary to have YAP installed! [ver aqui](https://github.com/vscosta/yap-6.3)*
 
-#### Como utilizar o programa:
-1. Para compilar basta correr `$ yap` .
-2. Correr `?- [damas].` para ler o ficheiro.
-3. Após isso correr `?- main.` para começar a jogar.
+#### How to use the program:
+1. To compile just run `$ yap` .
+2. Run `?- [damas].` to read the file.
+3. After that, run `?- main.` to start playing.
 
-##### Trabalho realizado por:
+##### Work done by::
 ###### [Cistiana Morais](https://github.com/CristianaMorais)
 ###### [João Pedro Ferreira](https://github.com/warneimer)
